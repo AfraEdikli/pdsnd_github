@@ -11,7 +11,7 @@ The program allows the user to explore an US bikeshare system database and retri
 
 ### Files used
 The files used in the programme (chicago.csv,washington.csv ,new_york_city.csv) to reach statistics for three major cities in the United States, Which is Chicago, New York City, and Washington
-.py document also includes necessary libraries like pandas etc. Following files are not uploded to the remote repo (by using .gitignore) because the file size is too big.
+.py document also includes necessary libraries like pandas, numpy and datetime. Following files are not uploded to the remote repo (by using .gitignore) because the file size is too big.
 
 ### Credits
 For the README file preparation , https://github.com/AfraEdikli/US-bike-Sharing-Data.git repo is referenced.
