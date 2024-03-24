@@ -48,7 +48,7 @@ def get_filters():
     
     days = {'sunday': 0 ,'monday': 1,'tuesday': 2,'wednesday': 3,'thursday': 4,'friday': 5,'saturday': 6}
     day = input('Would you like to filter the data my day ? If it is yes enter which day as an integer (e.g., 1=Sunday).You can type "all" for no time filter')
-    day = day.lower()
+    day = day.lower() # eliminate upper/lower case
     
     
     if day != 'all':
@@ -59,7 +59,7 @@ def get_filters():
             day = days[day]
             
 
-    print('\n-'*40)
+    print('-'*40)
     return city,month,day
 
 
@@ -126,7 +126,7 @@ def time_stats(df):
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('\n-'*40)
+    print('-'*40)
 
 
 
@@ -152,7 +152,7 @@ def station_stats(df):
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('\n-'*40)
+    print('-'*40)
 
 
 
@@ -172,7 +172,7 @@ def trip_duration_stats(df):
     print('Mean travel time >> ',mean_travel)
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('\n-'*40)
+    print('-'*40)
 
 
 def user_stats(city,df):
@@ -204,7 +204,7 @@ def user_stats(city,df):
     
     
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('\n-'*40)
+    print('-'*40)
 
 def view_data(df):
 
