@@ -48,7 +48,7 @@ def get_filters():
     
     days = {'sunday': 0 ,'monday': 1,'tuesday': 2,'wednesday': 3,'thursday': 4,'friday': 5,'saturday': 6}
     day = input('Would you like to filter the data my day ? If it is yes enter which day as an integer (e.g., 1=Sunday).You can type "all" for no time filter')
-    day = day.lower()
+    day = day.lower() # eliminate upper/lower case
     
     
     if day != 'all':
